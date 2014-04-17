@@ -6,6 +6,7 @@ import net.sf.ehcache.Element;
 
 public class EHCacheTest {
 
+	// http://terracotta.org/downloads/open-source/catalog
 	public static void main(String[] args) {
 		CacheManager manager = CacheManager.create(Thread.currentThread().getContextClassLoader().getResourceAsStream("cache/ehcache/ehcache.xml"));
 		manager.addCache("hello");
