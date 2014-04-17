@@ -6,7 +6,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
-		<tc-maven-plugin.version>1.9.7</tc-maven-plugin.version>
 		<ehcache-core.version>2.6.8</ehcache-core.version>
 		<ehcache-terracotta.version>2.6.8</ehcache-terracotta.version>
 	</properties>
@@ -32,6 +31,22 @@
 			<groupId>net.sf.ehcache</groupId>
 			<artifactId>ehcache-terracotta</artifactId>
 			<version>${ehcache-terracotta.version}</version>
+		</dependency>
+		<!-- 3 jars in ehcache-terracotta-2.6.8\META-INF\terracotta\TIMs -->
+		<dependency>
+			<groupId>org.terracotta.modules</groupId>
+			<artifactId>tim-ehcache-2.x</artifactId>
+			<version>1.9.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.terracotta.modules</groupId>
+			<artifactId>tim-ehcache-2.x-ui</artifactId>
+			<version>1.9.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.terracotta.modules</groupId>
+			<artifactId>tim-ehcache-2.x-hibernate-ui</artifactId>
+			<version>1.9.7</version>
 		</dependency>
 
 		<dependency>
