@@ -48,6 +48,11 @@
 			<artifactId>tim-ehcache-2.x-hibernate-ui</artifactId>
 			<version>1.9.7</version>
 		</dependency>
+		<dependency>
+			<groupId>org.terracotta</groupId>
+			<artifactId>terracotta-l1</artifactId>
+			<version>3.7.7</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.slf4j</groupId>
